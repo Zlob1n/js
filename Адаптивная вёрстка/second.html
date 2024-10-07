@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <header>
+        <div class="menu layout">
+        <nav>
+            <a href="/index.html">1 страница</a>
+        </nav>
+        </div>
+ </header>
+     <div class="layout">
+        <div class="h1">
+            <h1>Каталог</h1>
+        </div>
+        <div class="catalog layout">
+            <div class="product">
+                <div class="product__top">
+                    <div class="product__image">
+                        <img src="./images/ds.jpeg" alt="Dead Space">
+                    </div>
+                    <div class="product__title">Dead Space</div>
+                    <div class="product__desc">Космический сурваивал-хоррор </div>
+                </div>
+                <div class="product__bottom">
+                    <div class="product__price">800</div>
+                    <button class="product__add">в корзину</button>
+                </div>
+            </div> 
+            <div class="product">
+                <div class="product__top">
+                    <div class="product__image">
+                        <img src="./images/fear.jpg" alt="F.E.A.R.">
+                    </div>
+                    <div class="product__title">F.E.A.R.</div>
+                    <div class="product__desc">Боевик с паранормальными эффектами</div>
+                </div>
+                <div class="product__bottom">
+                    <div class="product__price">500</div>
+                    <button class="product__add">в корзину</button>
+                </div>
+            </div> 
+            <div class="product product--sale">
+                <div class="product__top">
+                    <div class="product__image">
+                        <img src="./images/witcher.jpg" alt="Witcher">
+                    </div>
+                    <div class="product__title">Ведьмак</div>
+                    <div class="product__desc">История Геральта из Ривии после потери памяти</div>
+                </div>
+                <div class="product__bottom">
+                    <div class="product__price">800</div>
+                    <button class="product__add">в корзину</button>
+                </div>
+            </div> 
+            <div class="product">
+                <div class="product__top">
+                    <div class="product__image">
+                        <img src="./images/re4.jpg" alt="Resident Evil 4">
+                    </div>
+                    <div class="product__title">Resident evil 4 Remake</div>
+                    <div class="product__desc">Пересказ истории о спасении дочери президента на новый лад</div>
+                </div>
+                <div class="product__bottom">
+                    <div class="product__price">2500</div>
+                    <button class="product__add">в корзину</button>
+                </div>
+            </div> 
+            <div class="product">
+                <div class="product__top">
+                    <div class="product__image">
+                        <img src="./images/maxresdefault.jpg" alt="NFS Most Wanted">
+                    </div>
+                    <div class="product__title">Need for Speed: Most Wanted</div>
+                    <div class="product__desc">Автомобильная аркада об уличных гонщиках</div>
+                </div>
+                <div class="product__bottom">
+                    <div class="product__price">700</div>
+                    <button class="product__add">в корзину</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__top">
+                    <div class="product__image">
+                        <img src="./images/dyPQaWKYlzk_akvoM5ICEw.jpeg" alt="Elden Ring">
+                    </div>
+                    <div class="product__title">Elden Ring</div>
+                    <div class="product__desc">Очередная соулслайк игра, но хорошая</div>
+                </div>
+                <div class="product__bottom">
+                    <div class="product__price">3000</div>
+                    <button class="product__add">в корзину</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__top">
+                    <div class="product__image">
+                        <img src="./images/death-stranding-logo.jpg" alt="Death Stranding">
+                    </div>
+                    <div class="product__title">Death Stranding</div>
+                    <div class="product__desc">Симулятор доставщика грузов в постапокалипсисе</div>
+                </div>
+                <div class="product__bottom">
+                    <div class="product__price">3000</div>
+                    <button class="product__add">в корзину</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__top">
+                    <div class="product__image">
+                        <img src="./images/z8msyImprsuCfnNQYIg1GQ.jpeg" alt="Portal 2">
+                    </div>
+                    <div class="product__title">Portal 2</div>
+                    <div class="product__desc">Лучшая игра про порталы из игр про порталы</div>
+                </div>
+                <div class="product__bottom">
+                    <div class="product__price">1500</div>
+                    <button class="product__add">в корзину</button>
+                </div>
+            </div>        
+        </div>
+     <div class="form">
+        <h2>Игровые приставки</h2>
+        <form>
+            <div>
+                <input type="text" id="text" placeholder="введите текст">
+                <label for="text"> Данные покупателя</label>
+            </div>
+            <div>
+                <textarea name="text" id="textarea" cols="30" rows="10" ></textarea>
+                <label for="textarea">Поле для заполнения обращения</label>
+            </div>
+            <div>
+                <select name="select" id="select">
+                    <option value="1">ps3</option>
+                    <option value="2">ps4</option>
+                    <option value="3">ps5</option>
+                    <option value="4">xbox series x</option>
+                </select>
+                <label for="select">Выбор приставки для покупки</label>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Соглашение</label>
+            </div>
+            <button>Отправить</button>
+        </form>
+      </div>
+  </div>
+</body>        
